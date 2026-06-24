@@ -1,0 +1,2 @@
+# BalajiAI
+static bootstrap page
