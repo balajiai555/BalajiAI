@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" fill="none">
+  <rect width="600" height="380" rx="16" fill="#FDFBF7"/>
+  <!-- Top Bar -->
+  <rect x="0" y="0" width="600" height="54" fill="#6B21A8" rx="16 16 0 0"/>
+  <circle cx="30" cy="27" r="6" fill="#EF4444"/>
+  <circle cx="48" cy="27" r="6" fill="#F59E0B"/>
+  <circle cx="66" cy="27" r="6" fill="#10B981"/>
+  <rect x="90" y="16" width="260" height="22" rx="6" fill="#581C87"/>
+  <text x="105" y="32" font-family="monospace" font-size="11" fill="#E9D5FF">anuradhasweets.in/store</text>
+  <text x="440" y="32" font-family="sans-serif" font-size="11" font-weight="700" fill="#FDE047">🛒 Cart (3) • ₹1,240</text>
+
+  <!-- Sweet Brand Banner -->
+  <rect x="20" y="66" width="560" height="74" rx="10" fill="#FDF4FF" stroke="#E9D5FF"/>
+  <text x="36" y="96" font-family="sans-serif" font-size="16" font-weight="800" fill="#581C87">Anuradha Sweets &amp; Bakery</text>
+  <text x="36" y="118" font-family="sans-serif" font-size="11" fill="#7E22CE">Authentic Pure Ghee Mithai, Bengali Sweets &amp; Namkeen • Express Delivery Kushinagar</text>
+  <rect x="450" y="80" width="115" height="30" rx="6" fill="#7E22CE"/>
+  <text x="466" y="100" font-family="sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">ORDER ONLINE</text>
+
+  <!-- Product Catalog Cards -->
+  <!-- Product 1: Kaju Katli -->
+  <rect x="20" y="152" width="176" height="210" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="28" y="160" width="160" height="96" rx="8" fill="#FEF3C7"/>
+  <text x="108" y="212" text-anchor="middle" font-family="sans-serif" font-size="34">✨🍬</text>
+  <text x="28" y="274" font-family="sans-serif" font-size="12" font-weight="700" fill="#1E293B">Special Kaju Katli</text>
+  <text x="28" y="292" font-family="sans-serif" font-size="10" fill="#64748B">Pure Cashew • 500g Box</text>
+  <text x="28" y="316" font-family="sans-serif" font-size="13" font-weight="800" fill="#7E22CE">₹480</text>
+  <rect x="116" y="300" width="72" height="26" rx="6" fill="#7E22CE"/>
+  <text x="135" y="317" font-family="sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">+ ADD</text>
+  <rect x="36" y="168" width="56" height="18" rx="4" fill="#10B981"/>
+  <text x="42" y="181" font-family="sans-serif" font-size="8.5" font-weight="700" fill="#FFFFFF">BESTSELLER</text>
+
+  <!-- Product 2: Motichoor Laddu -->
+  <rect x="212" y="152" width="176" height="210" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="220" y="160" width="160" height="96" rx="8" fill="#FFEDD5"/>
+  <text x="300" y="212" text-anchor="middle" font-family="sans-serif" font-size="34">🟡🥮</text>
+  <text x="220" y="274" font-family="sans-serif" font-size="12" font-weight="700" fill="#1E293B">Desi Ghee Laddu</text>
+  <text x="220" y="292" font-family="sans-serif" font-size="10" fill="#64748B">Fine Boondi • 1kg Pack</text>
+  <text x="220" y="316" font-family="sans-serif" font-size="13" font-weight="800" fill="#7E22CE">₹360</text>
+  <rect x="308" y="300" width="72" height="26" rx="6" fill="#7E22CE"/>
+  <text x="327" y="317" font-family="sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">+ ADD</text>
+
+  <!-- Product 3: Gulab Jamun & Rasgulla combo -->
+  <rect x="404" y="152" width="176" height="210" rx="10" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <rect x="412" y="160" width="160" height="96" rx="8" fill="#FCE7F3"/>
+  <text x="492" y="212" text-anchor="middle" font-family="sans-serif" font-size="34">🍯🫕</text>
+  <text x="412" y="274" font-family="sans-serif" font-size="12" font-weight="700" fill="#1E293B">Festival Gift Hamper</text>
+  <text x="412" y="292" font-family="sans-serif" font-size="10" fill="#64748B">Assorted Sweets &amp; Dry Fruits</text>
+  <text x="412" y="316" font-family="sans-serif" font-size="13" font-weight="800" fill="#7E22CE">₹799</text>
+  <rect x="500" y="300" width="72" height="26" rx="6" fill="#7E22CE"/>
+  <text x="519" y="317" font-family="sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">+ ADD</text>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" fill="none">
+  <rect width="600" height="380" rx="16" fill="#0D1E24"/>
+  
+  <!-- App Header -->
+  <rect x="0" y="0" width="600" height="54" fill="#132B34" rx="16 16 0 0"/>
+  <circle cx="30" cy="27" r="6" fill="#EF4444"/>
+  <circle cx="48" cy="27" r="6" fill="#F59E0B"/>
+  <circle cx="66" cy="27" r="6" fill="#10B981"/>
+  <rect x="90" y="16" width="240" height="22" rx="6" fill="#0B1A20"/>
+  <text x="105" y="32" font-family="monospace" font-size="11" fill="#7DD3FC">pos.mealqr.in/store/live-orders</text>
+  <rect x="470" y="15" width="105" height="24" rx="12" fill="#10B981" fill-opacity="0.2"/>
+  <circle cx="484" cy="27" r="4" fill="#10B981"/>
+  <text x="495" y="31" font-family="sans-serif" font-size="11" font-weight="700" fill="#34D399">150+ LIVE</text>
+
+  <!-- Left Sidebar -->
+  <rect x="16" y="70" width="120" height="294" rx="10" fill="#132B34"/>
+  <rect x="26" y="86" width="100" height="26" rx="6" fill="#0D6E6E"/>
+  <text x="36" y="103" font-family="sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">🍽️ Tables (24)</text>
+  <rect x="26" y="122" width="100" height="24" rx="6" fill="#1C3843"/>
+  <text x="36" y="138" font-family="sans-serif" font-size="11" fill="#94A3B8">📋 Live KOT</text>
+  <rect x="26" y="154" width="100" height="24" rx="6" fill="#1C3843"/>
+  <text x="36" y="170" font-family="sans-serif" font-size="11" fill="#94A3B8">🧾 GST Bills</text>
+  <rect x="26" y="186" width="100" height="24" rx="6" fill="#1C3843"/>
+  <text x="36" y="202" font-family="sans-serif" font-size="11" fill="#94A3B8">📦 Inventory</text>
+  <rect x="26" y="218" width="100" height="24" rx="6" fill="#1C3843"/>
+  <text x="36" y="234" font-family="sans-serif" font-size="11" fill="#94A3B8">📊 Analytics</text>
+
+  <!-- Table Grid Area -->
+  <rect x="148" y="70" width="280" height="294" rx="10" fill="#132B34"/>
+  <text x="164" y="96" font-family="sans-serif" font-size="13" font-weight="700" fill="#E2E8F0">Dine-in Floor (QR Active)</text>
+  
+  <!-- Table Cards -->
+  <rect x="164" y="112" width="80" height="68" rx="8" fill="#0D6E6E" stroke="#14B8A6" stroke-width="1.5"/>
+  <text x="174" y="132" font-family="sans-serif" font-size="12" font-weight="800" fill="#FFFFFF">Table 01</text>
+  <text x="174" y="148" font-family="sans-serif" font-size="10" fill="#A7F3D0">₹1,420 • 4 items</text>
+  <rect x="174" y="156" width="56" height="14" rx="4" fill="#059669"/>
+  <text x="180" y="166" font-family="sans-serif" font-size="8.5" font-weight="700" fill="#FFFFFF">BILLED</text>
+
+  <rect x="254" y="112" width="80" height="68" rx="8" fill="#1E293B" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="264" y="132" font-family="sans-serif" font-size="12" font-weight="800" fill="#FFFFFF">Table 02</text>
+  <text x="264" y="148" font-family="sans-serif" font-size="10" fill="#FDE68A">₹850 • QR Order</text>
+  <rect x="264" y="156" width="56" height="14" rx="4" fill="#D97706"/>
+  <text x="270" y="166" font-family="sans-serif" font-size="8.5" font-weight="700" fill="#FFFFFF">KITCHEN</text>
+
+  <rect x="344" y="112" width="74" height="68" rx="8" fill="#1A333E" stroke="#334155" stroke-width="1"/>
+  <text x="354" y="132" font-family="sans-serif" font-size="12" font-weight="700" fill="#94A3B8">Table 03</text>
+  <text x="354" y="148" font-family="sans-serif" font-size="10" fill="#64748B">Vacant</text>
+
+  <!-- KOT Preview Section -->
+  <rect x="164" y="194" width="254" height="154" rx="8" fill="#0B1A20"/>
+  <text x="178" y="218" font-family="sans-serif" font-size="11" font-weight="700" fill="#F5A623">⚡ REAL-TIME KDS TICKET #89</text>
+  <text x="178" y="238" font-family="sans-serif" font-size="10" fill="#E2E8F0">2x Paneer Butter Masala (Mild)</text>
+  <text x="178" y="254" font-family="sans-serif" font-size="10" fill="#E2E8F0">4x Butter Tandoori Roti</text>
+  <text x="178" y="270" font-family="sans-serif" font-size="10" fill="#E2E8F0">1x Sweet Lassi (No Sugar)</text>
+  <line x1="178" y1="284" x2="400" y2="284" stroke="#334155" stroke-dasharray="4 4"/>
+  <text x="178" y="304" font-family="sans-serif" font-size="10" fill="#10B981">Auto thermal print sent to Kitchen (WLAN)</text>
+  <text x="178" y="324" font-family="sans-serif" font-size="9" fill="#94A3B8">Elapsed: 03m 42s · Waiter: Self-QR</text>
+
+  <!-- Right Thermal Bill Preview -->
+  <rect x="440" y="70" width="144" height="294" rx="8" fill="#F8FAFC"/>
+  <rect x="448" y="80" width="128" height="274" fill="#FFFFFF" stroke="#E2E8F0"/>
+  <text x="512" y="104" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="800" fill="#0F172A">ANURADHA RESTRO</text>
+  <text x="512" y="118" text-anchor="middle" font-family="sans-serif" font-size="8" fill="#64748B">Kushinagar • GSTIN: 09XXXXX</text>
+  <line x1="456" y1="126" x2="568" y2="126" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="458" y="142" font-family="sans-serif" font-size="8.5" fill="#334155">1x Dal Makhani</text>
+  <text x="566" y="142" text-anchor="end" font-family="sans-serif" font-size="8.5" font-weight="700" fill="#334155">220.00</text>
+  <text x="458" y="158" font-family="sans-serif" font-size="8.5" fill="#334155">2x Butter Naan</text>
+  <text x="566" y="158" text-anchor="end" font-family="sans-serif" font-size="8.5" font-weight="700" fill="#334155">90.00</text>
+  <text x="458" y="174" font-family="sans-serif" font-size="8.5" fill="#334155">1x Gulab Jamun</text>
+  <text x="566" y="174" text-anchor="end" font-family="sans-serif" font-size="8.5" font-weight="700" fill="#334155">70.00</text>
+  <line x1="456" y1="184" x2="568" y2="184" stroke="#CBD5E1" stroke-width="1"/>
+  <text x="458" y="198" font-family="sans-serif" font-size="8.5" fill="#64748B">CGST 2.5% + SGST 2.5%</text>
+  <text x="566" y="198" text-anchor="end" font-family="sans-serif" font-size="8.5" fill="#64748B">19.00</text>
+  <text x="458" y="216" font-family="sans-serif" font-size="10" font-weight="800" fill="#0D6E6E">TOTAL PAID</text>
+  <text x="566" y="216" text-anchor="end" font-family="sans-serif" font-size="10" font-weight="800" fill="#0D6E6E">₹399.00</text>
+  
+  <rect x="480" y="234" width="64" height="64" fill="#0F172A" rx="4"/>
+  <rect x="490" y="244" width="44" height="44" fill="#FFFFFF"/>
+  <text x="512" y="270" text-anchor="middle" font-family="sans-serif" font-size="8" font-weight="700" fill="#0F172A">QR PAY</text>
+  <text x="512" y="318" text-anchor="middle" font-family="sans-serif" font-size="7.5" font-weight="600" fill="#10B981">POWERED BY MEALQR</text>
+</svg>

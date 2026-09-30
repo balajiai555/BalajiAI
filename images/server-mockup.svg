@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" fill="none">
+  <rect width="600" height="380" rx="16" fill="#0B132B"/>
+  
+  <!-- App Header -->
+  <rect x="0" y="0" width="600" height="54" fill="#1C2541" rx="16 16 0 0"/>
+  <circle cx="30" cy="27" r="6" fill="#EF4444"/>
+  <circle cx="48" cy="27" r="6" fill="#F59E0B"/>
+  <circle cx="66" cy="27" r="6" fill="#10B981"/>
+  <rect x="90" y="16" width="230" height="22" rx="6" fill="#0B132B"/>
+  <text x="105" y="32" font-family="monospace" font-size="11" fill="#48CAE4">srv1896372.balajiailab.internal</text>
+  <rect x="460" y="15" width="115" height="24" rx="12" fill="#10B981" fill-opacity="0.2"/>
+  <circle cx="474" cy="27" r="4" fill="#10B981"/>
+  <text x="485" y="31" font-family="sans-serif" font-size="11" font-weight="700" fill="#38BDF8">SYS ONLINE</text>
+
+  <!-- Phone Shell on Left -->
+  <rect x="36" y="68" width="160" height="296" rx="20" fill="#03071E" stroke="#3A5A40" stroke-width="2"/>
+  <rect x="86" y="76" width="60" height="8" rx="4" fill="#1F2937"/>
+  <text x="52" y="104" font-family="sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">Balaji ServerOps</text>
+  <text x="52" y="118" font-family="sans-serif" font-size="9" fill="#10B981">● All nodes operational</text>
+  
+  <!-- Mobile Metrics Cards -->
+  <rect x="48" y="130" width="136" height="50" rx="8" fill="#1F2937"/>
+  <text x="58" y="148" font-family="sans-serif" font-size="9.5" fill="#9CA3AF">CPU Load</text>
+  <text x="58" y="166" font-family="sans-serif" font-size="14" font-weight="800" fill="#48CAE4">14.2%</text>
+  <text x="120" y="166" font-family="sans-serif" font-size="9" fill="#10B981">Normal</text>
+
+  <rect x="48" y="188" width="136" height="50" rx="8" fill="#1F2937"/>
+  <text x="58" y="206" font-family="sans-serif" font-size="9.5" fill="#9CA3AF">RAM Usage</text>
+  <text x="58" y="224" font-family="sans-serif" font-size="14" font-weight="800" fill="#F5A623">3.8 / 16 GB</text>
+  <text x="135" y="224" font-family="sans-serif" font-size="9" fill="#10B981">24%</text>
+
+  <rect x="48" y="246" width="136" height="50" rx="8" fill="#1F2937"/>
+  <text x="58" y="264" font-family="sans-serif" font-size="9.5" fill="#9CA3AF">Active Sockets</text>
+  <text x="58" y="282" font-family="sans-serif" font-size="14" font-weight="800" fill="#A78BFA">1,482</text>
+  <text x="120" y="282" font-family="sans-serif" font-size="9" fill="#38BDF8">MealQR</text>
+
+  <rect x="48" y="306" width="136" height="42" rx="6" fill="#0D6E6E"/>
+  <text x="76" y="332" font-family="sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">Restart Service</text>
+
+  <!-- Right Dashboard Metrics -->
+  <rect x="220" y="70" width="355" height="294" rx="10" fill="#1C2541"/>
+  <text x="238" y="98" font-family="sans-serif" font-size="13" font-weight="700" fill="#FFFFFF">Real-time Production Cluster Telemetry</text>
+  <text x="238" y="116" font-family="sans-serif" font-size="10" fill="#94A3B8">Nginx Reverse Proxy • Gunicorn • PostgreSQL • Redis Workers</text>
+
+  <!-- Terminal log box -->
+  <rect x="238" y="132" width="320" height="150" rx="8" fill="#0B132B" stroke="#334155"/>
+  <text x="250" y="154" font-family="monospace" font-size="9.5" fill="#10B981">[2026-09-30 13:25:00] [INFO] cluster-manager: Health check PASS (4/4)</text>
+  <text x="250" y="172" font-family="monospace" font-size="9.5" fill="#48CAE4">[2026-09-30 13:25:01] [POS] MealQR: 148 active restaurant nodes synced</text>
+  <text x="250" y="190" font-family="monospace" font-size="9.5" fill="#E2E8F0">[2026-09-30 13:25:03] [WEB] Cruise: booking.rameshwaramcruise.com 200 OK</text>
+  <text x="250" y="208" font-family="monospace" font-size="9.5" fill="#E2E8F0">[2026-09-30 13:25:04] [API] Anuradha Sweets: order #9124 dispatched</text>
+  <text x="250" y="226" font-family="monospace" font-size="9.5" fill="#F5A623">[2026-09-30 13:25:06] [AUTH] Zero-Trust VPN handshake confirmed UP</text>
+  <text x="250" y="244" font-family="monospace" font-size="9.5" fill="#A78BFA">[2026-09-30 13:25:08] [BACKUP] Automated SQLite/Postgres snapshot complete</text>
+  <text x="250" y="262" font-family="monospace" font-size="9.5" fill="#10B981">System status: OPTIMAL • Latency: 12ms • Downtime: 0.00%</text>
+
+  <!-- Key Specs Footer inside card -->
+  <rect x="238" y="294" width="98" height="56" rx="6" fill="#0B132B"/>
+  <text x="250" y="314" font-family="sans-serif" font-size="9" fill="#94A3B8">UPTIME</text>
+  <text x="250" y="336" font-family="sans-serif" font-size="14" font-weight="800" fill="#10B981">99.98%</text>
+
+  <rect x="348" y="294" width="98" height="56" rx="6" fill="#0B132B"/>
+  <text x="360" y="314" font-family="sans-serif" font-size="9" fill="#94A3B8">LATENCY</text>
+  <text x="360" y="336" font-family="sans-serif" font-size="14" font-weight="800" fill="#38BDF8">&lt; 20ms</text>
+
+  <rect x="458" y="294" width="100" height="56" rx="6" fill="#0B132B"/>
+  <text x="470" y="314" font-family="sans-serif" font-size="9" fill="#94A3B8">MONITORED</text>
+  <text x="470" y="336" font-family="sans-serif" font-size="14" font-weight="800" fill="#F5A623">24/7/365</text>
+</svg>

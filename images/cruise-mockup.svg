@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" fill="none">
+  <rect width="600" height="380" rx="16" fill="#0A192F"/>
+  <!-- Header Bar -->
+  <rect x="0" y="0" width="600" height="54" fill="#0E2440" rx="16 16 0 0"/>
+  <circle cx="30" cy="27" r="6" fill="#EF4444"/>
+  <circle cx="48" cy="27" r="6" fill="#F59E0B"/>
+  <circle cx="66" cy="27" r="6" fill="#10B981"/>
+  <rect x="90" y="16" width="280" height="22" rx="6" fill="#071324"/>
+  <text x="105" y="32" font-family="monospace" font-size="11" fill="#93C5FD">booking.rameshwaramcruise.com/varanasi</text>
+  <rect x="460" y="15" width="115" height="24" rx="12" fill="#BE0A13" fill-opacity="0.9"/>
+  <text x="475" y="31" font-family="sans-serif" font-size="10.5" font-weight="700" fill="#FFFFFF">RAMESHWARAM</text>
+
+  <!-- Cruise Banner -->
+  <rect x="20" y="70" width="560" height="110" rx="12" fill="url(#cruiseGrad)"/>
+  <defs>
+    <linearGradient id="cruiseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E3A8A"/>
+      <stop offset="50%" stop-color="#BE0A13"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+  
+  <text x="40" y="105" font-family="sans-serif" font-size="20" font-weight="800" fill="#FFFFFF">Luxury Ganga Cruise Booking</text>
+  <text x="40" y="128" font-family="sans-serif" font-size="12" fill="#E2E8F0">84 Sacred Varanasi Ghats • Live Bhajan &amp; Commentary • Sunset Aarti Slot</text>
+  <rect x="40" y="142" width="140" height="26" rx="6" fill="#FFFFFF"/>
+  <text x="54" y="159" font-family="sans-serif" font-size="11" font-weight="800" fill="#BE0A13">BOOK TICKETS NOW</text>
+
+  <!-- Booking Flow Widget Preview -->
+  <rect x="20" y="196" width="350" height="168" rx="10" fill="#112240" stroke="#1E3A8A"/>
+  <text x="36" y="222" font-family="sans-serif" font-size="12" font-weight="700" fill="#FDE68A">SELECT DATE &amp; TIME SLOT</text>
+  
+  <!-- Slot Cards -->
+  <rect x="36" y="236" width="145" height="54" rx="6" fill="#1E3A8A" stroke="#3B82F6"/>
+  <text x="46" y="254" font-family="sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">🌅 Morning Cruise</text>
+  <text x="46" y="270" font-family="sans-serif" font-size="9" fill="#93C5FD">06:00 AM - 07:30 AM</text>
+  <text x="46" y="282" font-family="sans-serif" font-size="9.5" font-weight="700" fill="#F5A623">₹450 / seat</text>
+
+  <rect x="195" y="236" width="160" height="54" rx="6" fill="#BE0A13" stroke="#F87171"/>
+  <text x="205" y="254" font-family="sans-serif" font-size="11" font-weight="700" fill="#FFFFFF">🌇 Evening Ganga Aarti</text>
+  <text x="205" y="270" font-family="sans-serif" font-size="9" fill="#FEE2E2">05:30 PM - 07:15 PM</text>
+  <text x="205" y="282" font-family="sans-serif" font-size="9.5" font-weight="700" fill="#FDE68A">₹650 / seat (FAST SELLING)</text>
+
+  <!-- Passenger summary -->
+  <rect x="36" y="302" width="319" height="50" rx="6" fill="#0A192F"/>
+  <text x="48" y="322" font-family="sans-serif" font-size="10.5" fill="#E2E8F0">Adults: 2  •  Children: 1  •  Slot: Evening Aarti</text>
+  <text x="48" y="338" font-family="sans-serif" font-size="11" font-weight="800" fill="#10B981">Total: ₹1,550 (Instant SMS &amp; WhatsApp Ticket)</text>
+
+  <!-- Right Digital Pass / QR Ticket -->
+  <rect x="385" y="196" width="195" height="168" rx="10" fill="#FFFFFF"/>
+  <rect x="385" y="196" width="195" height="34" rx="10 10 0 0" fill="#BE0A13"/>
+  <text x="482" y="218" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="800" fill="#FFFFFF">DIGITAL CRUISE BOARDING PASS</text>
+  
+  <text x="400" y="246" font-family="sans-serif" font-size="9" fill="#64748B">PASSENGER NAME</text>
+  <text x="400" y="258" font-family="sans-serif" font-size="10" font-weight="700" fill="#0F172A">Rajesh Srivastava (3 Seats)</text>
+  <text x="400" y="274" font-family="sans-serif" font-size="9" fill="#64748B">BOARDING POINT</text>
+  <text x="400" y="286" font-family="sans-serif" font-size="10" font-weight="700" fill="#0F172A">Assi Ghat Pier 2, Varanasi</text>
+
+  <rect x="400" y="296" width="165" height="2" fill="#E2E8F0"/>
+  <rect x="510" y="304" width="55" height="52" fill="#0F172A" rx="4"/>
+  <rect x="516" y="310" width="43" height="40" fill="#FFFFFF"/>
+  <text x="537.5" y="334" text-anchor="middle" font-family="sans-serif" font-size="7.5" font-weight="800" fill="#0F172A">SCAN</text>
+
+  <text x="400" y="318" font-family="sans-serif" font-size="8.5" fill="#64748B">Status: <tspan fill="#10B981" font-weight="700">CONFIRMED</tspan></text>
+  <text x="400" y="332" font-family="sans-serif" font-size="8" fill="#94A3B8">Engineered by Balaji AI Lab</text>
+</svg>
