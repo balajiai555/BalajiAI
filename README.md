@@ -10,12 +10,14 @@
 This repository houses the official website for **Balaji AI Lab** (`balajiailab.com`). It showcases our full breadth of software engineering, proprietary restaurant operating systems, luxury tourism booking engines, local retail e-commerce, and autonomous AI agents.
 
 ### 🌟 Key Offerings
-- **MealQR Restro OS:** 150+ live restaurant outlets across Purvanchal. QR self-ordering, KDS kitchen display, thermal GST invoicing, 0% commission.
-- **Custom Billing & POS:** High-speed, keyboard-driven offline-first billing for retail, sweet shops, and supermarkets.
+- **Modern School ERP & Coaching LMS Platforms:** Multi-role login portals (Principal, Admin, Teacher, Student, Parent, Accountant), instant QR smart attendance, automated WhatsApp arrival alerts, online fee collection with instant receipts, exam grade books, and coaching test series LMS.
+- **Enterprise AI Systems:** Private In-House LLM fine-tuning, neural voice cloning (Hindi, Bhojpuri, English), and autonomous multi-agent workflows.
+- **Consultative Discovery & Growth Marketing:** Objective-first architecture design followed by dedicated full-funnel digital marketing, Meta/Google ad campaigns, and local SEO.
+- **MealQR Restro OS & Counter POS:** Offline-first high-speed billing for retail, restaurants, and sweet shops with weighing scale interfaces.
 - **AI Agents & Intelligent Chatbots:** 24/7 automated WhatsApp lead capture, customer service agents, and automated workflow triggers.
-- **Mobile & Web Engineering:** Native Android applications, handheld POS terminals, high-conversion responsive websites, and custom CMS platforms.
-- **IoT & Hardware Integration:** Thermal receipt printers, local edge WLAN sync, barcode/RFID scanners, and systems integration.
-- **Digital Marketing & Local SEO:** Dominating local search in Kushinagar, Gorakhpur, and Purvanchal.
+- **Mobile & Web Engineering:** Full-stack web portals (Rameshwaram Cruise), on-demand grocery delivery (Grocki), native Android APKs, and food ordering platforms (Anuradha Sweets).
+- **IoT & Hardware Integration:** Thermal receipt printers, local edge WLAN sync, digital weighing scales, barcode scanners, and ESP32 telemetry.
+- **Digital Marketing & Local SEO:** Dominating local search and generative AI answer engine rankings in Kushinagar, Gorakhpur, and Purvanchal.
 
 ---
 
@@ -36,20 +38,17 @@ This repository houses the official website for **Balaji AI Lab** (`balajiailab.
 ├── css/
 │   └── style.css               # Responsive design system & custom CSS variables
 ├── js/
-│   └── main.js                 # Mobile drawer, FAQ accordion & WhatsApp demo dispatcher
+│   └── main.js                 # Unified scroll engine, accessible dropdowns & form handler
 ├── img/                        # Real production software screenshots & founder photo
 │   ├── chandanguptapic.jpg     # Chandan Gupta (Founder & Principal Systems Engineer)
-│   ├── dashboard.png           # Live POS & sales analytics dashboard
-│   ├── quickbill.png           # Rapid touch & barcode billing terminal
-│   ├── tablemanage.png         # Table status & floor management
-│   ├── sweetshopswitch.png     # Sweet shop vs restaurant dual-mode
-│   ├── allbills.png            # Bill history ledger & thermal reprint
-│   └── reportview.png          # Daily tax & profit analytics report
+│   ├── cruise-seat-selection.png # Real booking console for Rameshwaram Cruise Varanasi
+│   └── cruise-booking-fleet.png  # Fleet and ticket booking overview
 └── images/                     # Vector SVG mockups & assets
     ├── logo.svg                # Balaji AI Lab official emblem & brandmark
     ├── mealqr-mockup.svg       # MealQR POS interface mockup
     ├── cruise-mockup.svg       # Rameshwaram Cruise luxury ticketing preview
     ├── anuradha-mockup.svg     # Anuradha Sweets e-commerce store preview
+    ├── grocki-mockup.svg       # Grocki Hyperlocal grocery delivery preview
     └── server-mockup.svg       # Server Ops mobile & cluster telemetry preview
 ```
 
@@ -58,7 +57,7 @@ This repository houses the official website for **Balaji AI Lab** (`balajiailab.
 ## 🔍 SEO & Rich Snippets
 
 The landing page embeds valid JSON-LD schemas for:
-- `LocalBusiness` (Geo coordinates `26.7410, 83.8890`, NAP, service cities)
+- `LocalBusiness` (Geo coordinates `26.7324, 83.7198`, NAP, service cities)
 - `Organization` (Balaji AI Lab identity)
 - `SoftwareApplication` (MealQR Restro OS)
 - `FAQPage` (6 core customer questions for Google Rich Snippets)
@@ -107,5 +106,7 @@ server {
 ## 📞 Contact & Engineering Support
 - **Helpline:** +91 7081982024 / +91 9140054630
 - **WhatsApp:** [wa.me/917081982024](https://wa.me/917081982024)
-- **Email:** hello@balajiailab.com
-- **Headquarters:** Bodarwar, Kaptanganj, Kushinagar, UP, India 274149
+- **Email:** contact@balajiailab.com
+- **Instagram:** [@balajiailab](https://www.instagram.com/balajiailab/)
+- **Facebook:** [@balajiailab](https://www.facebook.com/balajiailab/)
+- **Headquarters:** [Bodarwar, Kaptanganj, Kushinagar, UP, India 274149](https://share.google/YWwFFNzeyYrmfTS9F) ([Google Maps Location](https://share.google/YWwFFNzeyYrmfTS9F))

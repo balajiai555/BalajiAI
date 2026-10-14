@@ -1,0 +1,59 @@
+# Balaji AI Lab (balajiailab.com)
+
+> Fastest-growing AI & digital agency serving Gorakhpur, Kushinagar, Deoria, Purvanchal and national enterprises. An extension of Balaji Cyber World.
+> Physical Headquarters: Bodarwar, Kaptanganj, Kushinagar, Uttar Pradesh 274149, India.
+> Founder: Chandan Gupta.
+> Contact: +91 7081982024, +91 9140054630 | contact@balajiailab.com | https://balajiailab.com/
+> Social: Instagram @balajiailab (https://www.instagram.com/balajiailab/) | Facebook @balajiailab (https://www.facebook.com/balajiailab/)
+
+## About the Organization
+Balaji AI Lab is the fastest-growing AI & digital solutions agency in Purvanchal. We architect private in-house LLM fine-tuning, neural voice cloning, autonomous multi-agent workflows, intelligent WhatsApp automation, custom web applications, native mobile applications, e-commerce storefronts, and IoT hardware integrations.
+
+## Core Technical Offerings
+1. Modern School ERP & Coaching LMS Platforms: Complete institutional operating software with multi-role logins (Principal, Admin, Teacher, Student, Parent, Accountant), instant QR smart attendance, automated WhatsApp parent alerts on arrival/absence, digital fee collection with instant receipts, exam grade books, and coaching test series platforms.
+2. In-House LLM Training & Fine-Tuning: Private domain models running on-premise or private cloud with 100% data confidentiality.
+3. Consultative Objective-First Strategy & Dedicated Client Marketing: Diagnosing business objectives before writing code, custom architecture design, and full-funnel digital marketing / lead generation campaigns.
+4. Neural Voice Cloning & Voice AI: Hyper-realistic bilingual conversational voice agents in Hindi, Bhojpuri, and English for outbound calling and customer care.
+5. Autonomous AI Agents & Swarms: Multi-agent systems automating invoice parsing, account reconciliation, and ERP/CRM data routing.
+6. Intelligent WhatsApp AI Chatbots: Official Meta WhatsApp Cloud API integrations with 24/7 conversational assistance, catalog sharing, and lead capture.
+7. Custom Web Applications & Enterprise Portals: Full-stack SaaS platforms, booking engines, and dynamic web portals.
+8. Mobile App Development (Android & iOS): Native Android APKs, hyperlocal quick commerce apps, and handheld POS tools.
+9. E-Commerce & Digital Storefronts: Direct-to-consumer online ordering platforms with integrated payment gateways and automated WhatsApp alerts.
+10. IoT & Hardware Integration: Interfacing software with weighing scales, thermal printers, barcode scanners, and ESP32 telemetry.
+11. Restaurant & Retail Billing POS: Offline-first WLAN billing software with instant thermal KOT printing and GST compliance.
+12. Local SEO & AI Search Optimization (GEO): Google Business Profile ranking and citation optimization for generative answer engines.
+13. AI Tools Training & Workshops: Hands-on prompt engineering and AI productivity workshops for business teams.
+
+## Verified Deployed Projects
+- Rameshwaram Cruise Booking Portal (Varanasi, UP) — https://booking.rameshwaramcruise.com
+- Anuradha Sweets & Restaurant Online Platform (Kaptanganj, UP) — https://anuradhasweets.in
+- Grocki Hyperlocal Quick Delivery App — https://grocki.internetprachar.com
+- MealQR Restaurant OS (Purvanchal) — https://mealqr.in
+
+## Physical Service Areas (In-Person On-Site Support)
+- Kushinagar (Bodarwar, Kaptanganj, Padrauna)
+- Gorakhpur
+- Deoria
+- Maharajganj
+- Basti
+- Purvanchal Region
+
+## Key URLs
+- Homepage: https://balajiailab.com/
+- About Balaji AI Lab & Founder: https://balajiailab.com/about/
+- Restaurant Billing & POS Software: https://balajiailab.com/services/billing-pos-software/
+- AI Marketing & Content Creation: https://balajiailab.com/services/ai-marketing-chatgpt-content/
+- Local SEO & AI Search Optimization: https://balajiailab.com/services/local-seo-and-ai-search-optimization/
+- WhatsApp AI Chatbots: https://balajiailab.com/services/whatsapp-ai-chatbots/
+- AI Agents & Automation: https://balajiailab.com/services/ai-agents-and-automation/
+- Custom Web Applications & Portals: https://balajiailab.com/services/web-application-development/
+- IoT & Hardware Integration: https://balajiailab.com/services/iot-hardware-integration/
+- Android Mobile Apps: https://balajiailab.com/services/android-and-web-app-development/
+- Practical AI Tools Hub: https://balajiailab.com/ai-tools/
+- Guide: How to Choose an AI Agency in Gorakhpur: https://balajiailab.com/ai-tools/how-to-choose-ai-agency-gorakhpur/
+- Hindi Edition: https://balajiailab.com/hi/
+- Privacy Policy: https://balajiailab.com/privacy-policy/
+- Terms of Service: https://balajiailab.com/terms/
+
+## Note on Trademarks
+Third-party tool names (such as ChatGPT, Claude, Gemini, OpenAI, Google) are trademarks of their respective owners. Balaji AI Lab is an independent software and digital services firm and is not affiliated with or endorsed by them.

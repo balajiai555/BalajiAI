@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="25 35 780 195" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800;900&amp;display=swap');
+      .brand-title {
+        font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      }
+    </style>
+
+    <!-- Circuit Gradients -->
+    <linearGradient id="bOuterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5A623"/>
+      <stop offset="25%" stop-color="#F59E0B"/>
+      <stop offset="50%" stop-color="#E8A838"/>
+      <stop offset="75%" stop-color="#0D9488"/>
+      <stop offset="100%" stop-color="#00A896"/>
+    </linearGradient>
+
+    <linearGradient id="goldTextGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFB830"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+
+    <!-- Glowing Blooms -->
+    <radialGradient id="centerBloom" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFBEB" stop-opacity="1"/>
+      <stop offset="20%" stop-color="#FDE68A" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#F5A623" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="cyanGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="1"/>
+      <stop offset="30%" stop-color="#2DD4BF" stop-opacity="0.65"/>
+      <stop offset="70%" stop-color="#00A896" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00A896" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="amberGlowUpper" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FDE68A" stop-opacity="0.8"/>
+      <stop offset="40%" stop-color="#F5A623" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#F5A623" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="groundShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00A896" stop-opacity="0.45"/>
+      <stop offset="40%" stop-color="#0F766E" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  
+
+  <!-- Ground Reflection/Shadow -->
+  <ellipse cx="152" cy="222" rx="72" ry="8" fill="url(#groundShadow)"/>
+
+  <!-- ================= ICON MARK ================= -->
+  <g id="icon-mark">
+    <!-- Light Blooms Behind Circuit Lines -->
+    <circle cx="187" cy="118.5" r="30" fill="url(#centerBloom)"/>
+    <ellipse cx="206" cy="186" rx="38" ry="12" fill="url(#cyanGlow)"/>
+    <circle cx="230" cy="85" r="28" fill="url(#amberGlowUpper)"/>
+
+    <!-- Neural Network Chords -->
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <!-- Outer Hexagonal Facets -->
+      <line x1="46" y1="118.5" x2="67" y2="78" stroke="#00A896" stroke-width="2.6" opacity="0.8"/>
+      <line x1="46" y1="118.5" x2="66" y2="158" stroke="#00A896" stroke-width="2.6" opacity="0.8"/>
+      <line x1="67" y1="78" x2="121.5" y2="51" stroke="#14B8A6" stroke-width="2.6" opacity="0.8"/>
+      <line x1="66" y1="158" x2="121.5" y2="186" stroke="#0D9488" stroke-width="2.6" opacity="0.8"/>
+
+      <!-- Diamond Struts to Center Waist Node (187, 118.5) -->
+      <line x1="121.5" y1="51" x2="187" y2="118.5" stroke="#F5A623" stroke-width="3.2" opacity="0.95"/>
+      <line x1="121.5" y1="186" x2="187" y2="118.5" stroke="#14B8A6" stroke-width="3.2" opacity="0.9"/>
+      <line x1="163" y1="56" x2="187" y2="118.5" stroke="#F5A623" stroke-width="3.5" opacity="0.98"/>
+      <line x1="164" y1="186" x2="187" y2="118.5" stroke="#00A896" stroke-width="3.2" opacity="0.9"/>
+
+      <!-- Center Horizontal Flare Line -->
+      <line x1="131" y1="118.5" x2="187" y2="118.5" stroke="#FDE68A" stroke-width="4"/>
+      <line x1="187" y1="118.5" x2="204" y2="118.5" stroke="#F5A623" stroke-width="4.5"/>
+
+      <!-- Internal Triangulation Chords -->
+      <line x1="46" y1="118.5" x2="91.5" y2="118.5" stroke="#00A896" stroke-width="2.6" opacity="0.85"/>
+      <line x1="67" y1="78" x2="91.5" y2="118.5" stroke="#00A896" stroke-width="2.6" opacity="0.85"/>
+      <line x1="66" y1="158" x2="91.5" y2="118.5" stroke="#00A896" stroke-width="2.6" opacity="0.85"/>
+      <line x1="67" y1="78" x2="131" y2="95" stroke="#0D9488" stroke-width="2.4" opacity="0.8"/>
+      <line x1="66" y1="158" x2="131" y2="142" stroke="#0D9488" stroke-width="2.4" opacity="0.8"/>
+
+      <line x1="91.5" y1="118.5" x2="121.5" y2="51" stroke="#0D9488" stroke-width="2.6" opacity="0.85"/>
+      <line x1="91.5" y1="118.5" x2="121.5" y2="186" stroke="#0D9488" stroke-width="2.6" opacity="0.85"/>
+      <line x1="91.5" y1="118.5" x2="131" y2="95" stroke="#14B8A6" stroke-width="2.6" opacity="0.85"/>
+      <line x1="91.5" y1="118.5" x2="131" y2="142" stroke="#14B8A6" stroke-width="2.6" opacity="0.85"/>
+      <line x1="91.5" y1="118.5" x2="131" y2="118.5" stroke="#F5A623" stroke-width="2.8" opacity="0.9"/>
+
+      <!-- Vertical Node Spine -->
+      <line x1="121.5" y1="51" x2="131" y2="95" stroke="#F5A623" stroke-width="3.2" opacity="0.92"/>
+      <line x1="131" y1="95" x2="131" y2="142" stroke="#F5A623" stroke-width="3.2" opacity="0.92"/>
+      <line x1="131" y1="142" x2="121.5" y2="186" stroke="#14B8A6" stroke-width="3.2" opacity="0.92"/>
+    </g>
+
+    <!-- Outer 'B' Circuit Loop -->
+    <path d="M 163 56 L 210 56 C 236 56, 252 70, 252 87 C 252 104, 236 118.5, 210 118.5 L 198 118.5 L 210 118.5 C 238 118.5, 253 134, 253 152 C 253 170, 236 186, 208 186 L 164 186" 
+          stroke="url(#bOuterGrad)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+    <!-- Inner 'B' Circuit Loops -->
+    <!-- Upper Inner Loop -->
+    <path d="M 176 74 L 210 74 C 224 74, 232 80, 232 88 C 232 96, 224 103, 210 103 L 192 103" 
+          stroke="#00A896" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.92"/>
+
+    <!-- Lower Inner Loop -->
+    <path d="M 176 168 L 210 168 C 224 168, 232 161, 232 153 C 232 144, 224 137, 210 137 L 192 137" 
+          stroke="#00A896" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.92"/>
+
+    <!-- Circular Specular Nodes -->
+    <!-- Teal Nodes -->
+    <circle cx="46" cy="118.5" r="8.5" fill="#00A896" stroke="rgba(255,255,255,0.2)" stroke-width="1.2"/>
+    <circle cx="44" cy="116" r="2.5" fill="#5EEAD4" opacity="0.75"/>
+
+    <circle cx="67" cy="78" r="8.5" fill="#00A896" stroke="rgba(255,255,255,0.2)" stroke-width="1.2"/>
+    <circle cx="65" cy="75.5" r="2.5" fill="#5EEAD4" opacity="0.75"/>
+
+    <circle cx="66" cy="158" r="8.5" fill="#00A896" stroke="rgba(255,255,255,0.2)" stroke-width="1.2"/>
+    <circle cx="64" cy="155.5" r="2.5" fill="#5EEAD4" opacity="0.75"/>
+
+    <circle cx="91.5" cy="118.5" r="10" fill="#00A896" stroke="rgba(255,255,255,0.3)" stroke-width="1.2"/>
+    <circle cx="89" cy="115.5" r="3" fill="#5EEAD4" opacity="0.85"/>
+
+    <circle cx="164" cy="186" r="9" fill="#00A896" stroke="rgba(255,255,255,0.2)" stroke-width="1.2"/>
+    <circle cx="162" cy="183.5" r="2.5" fill="#5EEAD4" opacity="0.75"/>
+
+    <circle cx="121.5" cy="186" r="9.5" fill="#14B8A6" stroke="rgba(255,255,255,0.3)" stroke-width="1.2"/>
+    <circle cx="119" cy="183" r="2.8" fill="#5EEAD4" opacity="0.8"/>
+
+    <!-- Amber Nodes -->
+    <circle cx="121.5" cy="51" r="9.5" fill="#F5A623" stroke="rgba(255,255,255,0.3)" stroke-width="1.2"/>
+    <circle cx="119" cy="48" r="2.8" fill="#FEF08A" opacity="0.9"/>
+
+    <circle cx="131" cy="95" r="9" fill="#F5A623" stroke="rgba(255,255,255,0.3)" stroke-width="1.2"/>
+    <circle cx="128.5" cy="92.5" r="2.5" fill="#FEF08A" opacity="0.9"/>
+
+    <circle cx="131" cy="142" r="9" fill="#F5A623" stroke="rgba(255,255,255,0.3)" stroke-width="1.2"/>
+    <circle cx="128.5" cy="139.5" r="2.5" fill="#FEF08A" opacity="0.9"/>
+
+    <circle cx="163" cy="56" r="9" fill="#F5A623" stroke="rgba(255,255,255,0.3)" stroke-width="1.2"/>
+    <circle cx="160.5" cy="53.5" r="2.5" fill="#FEF08A" opacity="0.9"/>
+
+    <!-- Central Waist Node (Bright Star Apex) -->
+    <circle cx="187" cy="118.5" r="9.5" fill="#F5A623" stroke="rgba(255,255,255,0.5)" stroke-width="1.5"/>
+    <circle cx="187" cy="118.5" r="4.5" fill="#FFFBEB"/>
+  </g>
+
+  <!-- ================= WORDMARK TYPOGRAPHY ================= -->
+  <g id="wordmark" class="brand-title" transform="translate(282, 0)">
+    <text x="0" y="150" font-size="78" font-weight="800" fill="#0E2A36" letter-spacing="-1.2">Balaji<tspan fill="url(#goldTextGrad)" font-weight="900" letter-spacing="-0.5">AI</tspan><tspan fill="#0E2A36" font-weight="300" letter-spacing="-0.5">Lab</tspan></text>
+    
+    <text x="164" y="181" font-size="14.5" font-weight="700" fill="#0D6E6E" letter-spacing="3.2">INTELLIGENCE ENGINE &amp; SYSTEMS</text>
+  </g>
+</svg>

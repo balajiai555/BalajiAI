@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Homepage (English) -->
+  <url>
+    <loc>https://balajiailab.com/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://balajiailab.com/" />
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://balajiailab.com/hi/" />
+  </url>
+
+  <!-- Homepage (Hindi) -->
+  <url>
+    <loc>https://balajiailab.com/hi/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://balajiailab.com/" />
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://balajiailab.com/hi/" />
+  </url>
+
+  <!-- About Page -->
+  <url>
+    <loc>https://balajiailab.com/about/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service: Billing & POS Software -->
+  <url>
+    <loc>https://balajiailab.com/services/billing-pos-software/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://balajiailab.com/services/billing-pos-software/" />
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://balajiailab.com/hi/services/billing-pos-software/" />
+  </url>
+
+  <!-- Service: Billing & POS Software (Hindi) -->
+  <url>
+    <loc>https://balajiailab.com/hi/services/billing-pos-software/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://balajiailab.com/services/billing-pos-software/" />
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://balajiailab.com/hi/services/billing-pos-software/" />
+  </url>
+
+  <!-- Service: AI Marketing & Content -->
+  <url>
+    <loc>https://balajiailab.com/services/ai-marketing-chatgpt-content/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://balajiailab.com/services/ai-marketing-chatgpt-content/" />
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://balajiailab.com/hi/services/ai-marketing-chatgpt-content/" />
+  </url>
+
+  <!-- Service: AI Marketing & Content (Hindi) -->
+  <url>
+    <loc>https://balajiailab.com/hi/services/ai-marketing-chatgpt-content/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://balajiailab.com/services/ai-marketing-chatgpt-content/" />
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://balajiailab.com/hi/services/ai-marketing-chatgpt-content/" />
+  </url>
+
+  <!-- Service: Local SEO & AI Search Optimization -->
+  <url>
+    <loc>https://balajiailab.com/services/local-seo-and-ai-search-optimization/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service: WhatsApp AI Chatbots -->
+  <url>
+    <loc>https://balajiailab.com/services/whatsapp-ai-chatbots/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://balajiailab.com/services/whatsapp-ai-chatbots/" />
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://balajiailab.com/hi/services/whatsapp-ai-chatbots/" />
+  </url>
+
+  <!-- Service: WhatsApp AI Chatbots (Hindi) -->
+  <url>
+    <loc>https://balajiailab.com/hi/services/whatsapp-ai-chatbots/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://balajiailab.com/services/whatsapp-ai-chatbots/" />
+    <xhtml:link rel="alternate" hreflang="hi-IN" href="https://balajiailab.com/hi/services/whatsapp-ai-chatbots/" />
+  </url>
+
+  <!-- Service: AI Agents & Automation -->
+  <url>
+    <loc>https://balajiailab.com/services/ai-agents-and-automation/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service: AI Tools Training -->
+  <url>
+    <loc>https://balajiailab.com/services/ai-tools-training/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service: Android Mobile App Development -->
+  <url>
+    <loc>https://balajiailab.com/services/android-and-web-app-development/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Service: Custom Web Application Development -->
+  <url>
+    <loc>https://balajiailab.com/services/web-application-development/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Service: IoT & Hardware Integration -->
+  <url>
+    <loc>https://balajiailab.com/services/iot-hardware-integration/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- AI Tools Hub -->
+  <url>
+    <loc>https://balajiailab.com/ai-tools/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Guide: AI Tools for Restaurants -->
+  <url>
+    <loc>https://balajiailab.com/ai-tools/ai-tools-for-restaurants/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Guide: ChatGPT for Local Marketing -->
+  <url>
+    <loc>https://balajiailab.com/ai-tools/chatgpt-for-local-marketing/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Guide: Prompt Techniques for Small Business -->
+  <url>
+    <loc>https://balajiailab.com/ai-tools/prompt-techniques-small-business/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Guide: How to Choose AI Agency in Gorakhpur -->
+  <url>
+    <loc>https://balajiailab.com/ai-tools/how-to-choose-ai-agency-gorakhpur/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Legal: Privacy Policy -->
+  <url>
+    <loc>https://balajiailab.com/privacy-policy/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Legal: Terms of Service -->
+  <url>
+    <loc>https://balajiailab.com/terms/</loc>
+    <lastmod>2026-10-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+</urlset>
