@@ -636,7 +636,10 @@ ul {
 .mobile-drawer {
   position: fixed;
   top: 0;
-  right: -100%;
+  right: 0;
+  transform: translateX(105%);
+  visibility: hidden;
+  pointer-events: none;
   width: 82%;
   max-width: 360px;
   height: 100vh;
@@ -646,12 +649,14 @@ ul {
   padding: 1.75rem 1.5rem;
   display: flex;
   flex-direction: column;
-  transition: right 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: transform 0.32s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.32s;
   overflow-y: auto;
 }
 
 .mobile-drawer.open {
-  right: 0;
+  transform: translateX(0);
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .drawer-overlay {
@@ -784,6 +789,7 @@ ul {
   align-items: center;
   gap: 0.5rem;
   width: fit-content;
+  max-width: 100%;
   background: rgba(13, 110, 110, 0.08);
   border: 1px solid rgba(13, 110, 110, 0.2);
   color: var(--primary);
@@ -791,6 +797,11 @@ ul {
   font-size: 0.85rem;
   padding: 0.4rem 0.95rem;
   border-radius: var(--radius-pill);
+}
+
+.hero-tag span:not(.pulse-dot) {
+  white-space: normal;
+  word-break: break-word;
 }
 
 .hero-tag .pulse-dot {
@@ -1144,6 +1155,23 @@ ul {
   margin-bottom: 4rem;
   position: relative;
   overflow: hidden;
+}
+
+.campus-showcase-banner {
+  background: linear-gradient(135deg, #07151A 0%, #0E2A36 100%);
+  color: #FFFFFF;
+  border-radius: var(--radius-lg);
+  padding: 2.25rem 2.5rem;
+  margin-top: 2.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: var(--shadow-md);
+}
+
+.campus-cta-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-width: 220px;
 }
 
 .flagship-banner::after {
@@ -2321,9 +2349,45 @@ textarea.form-control {
 }
 
 @media (max-width: 768px) {
+  /* 1. Remove everything above the navbar for mobile view */
+  .topbar {
+    display: none !important;
+  }
+
+  .custom-cursor-dot,
+  .custom-cursor-ring {
+    display: none !important;
+  }
+
+  /* 2. Mobile root & container constraints */
+  html, body {
+    overflow-x: hidden !important;
+    max-width: 100vw !important;
+    width: 100% !important;
+  }
+
   .container {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
+    max-width: 100% !important;
+  }
+
+  /* 3. Hero & decorative overflow safeguards */
+  .hero-bg-blobs {
+    display: none !important;
+  }
+
+  .hero-tag {
+    max-width: 100% !important;
+    border-radius: var(--radius-md) !important;
+    font-size: 0.78rem !important;
+    line-height: 1.35 !important;
+    padding: 0.4rem 0.75rem !important;
+  }
+
+  .hero-tag span:not(.pulse-dot) {
+    white-space: normal !important;
+    word-break: break-word !important;
   }
 
   .site-header .nav-container {
@@ -2335,10 +2399,6 @@ textarea.form-control {
     height: 38px;
     max-height: 40px;
     width: auto;
-  }
-
-  .topbar-left span:not(.topbar-badge) {
-    display: none;
   }
 
   .header-phone {
@@ -2385,21 +2445,106 @@ textarea.form-control {
     grid-template-columns: 1fr;
   }
 
+  .campus-showcase-banner {
+    padding: 1.5rem 1rem !important;
+    margin-top: 1.5rem !important;
+  }
+
+  .campus-cta-group {
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+
+  .campus-cta-group .btn {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+
+  /* 4. Live Projects / Case Study Section (No Cropping, Clean Padding & Wrapping) */
+  .case-study-card {
+    border-radius: var(--radius-lg) !important;
+    margin-bottom: 2rem !important;
+    width: 100% !important;
+    overflow: hidden !important;
+  }
+
   .case-study-visual {
-    padding: 1.25rem 1rem !important;
+    padding: 1rem 0.85rem !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    border-right: none !important;
+    border-left: none !important;
+    border-bottom: 1px solid var(--border-light) !important;
+  }
+
+  .case-study-visual img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    border-radius: var(--radius-md) !important;
+    box-sizing: border-box !important;
   }
 
   .case-study-info {
     padding: 1.25rem 1rem !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    gap: 0.85rem !important;
+  }
+
+  .case-study-meta {
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    gap: 0.5rem !important;
+    width: 100% !important;
+  }
+
+  .case-study-meta .badge {
+    white-space: normal !important;
+    word-break: break-word !important;
+    font-size: 0.75rem !important;
+    padding: 0.35rem 0.65rem !important;
+    line-height: 1.3 !important;
+  }
+
+  .case-study-title {
+    font-size: 1.25rem !important;
+    line-height: 1.35 !important;
+    word-break: break-word !important;
+  }
+
+  .case-study-desc {
+    font-size: 0.92rem !important;
+    line-height: 1.55 !important;
+    word-break: break-word !important;
   }
 
   .case-study-bullets {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
+    gap: 0.5rem !important;
+    width: 100% !important;
+  }
+
+  .case-bullet {
+    font-size: 0.84rem !important;
+    line-height: 1.4 !important;
+    align-items: flex-start !important;
+  }
+
+  .case-study-cta-row {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 0.65rem !important;
+    width: 100% !important;
+    margin-top: 0.5rem !important;
   }
 
   .case-study-cta-row .btn {
     width: 100% !important;
-    justify-content: center;
+    justify-content: center !important;
+    padding: 0.75rem 1rem !important;
   }
 
   .value-props-grid,
