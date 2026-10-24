@@ -180,6 +180,49 @@ body {
   color: #FFFFFF;
 }
 
+.grocki-btn-play {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #01875F;
+  color: #FFFFFF !important;
+  padding: 0.55rem 1.15rem;
+  border-radius: var(--grocki-radius-pill);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  box-shadow: 0 3px 10px rgba(1, 135, 95, 0.3);
+}
+
+.grocki-btn-play:hover {
+  background: #017250;
+  transform: translateY(-1px);
+  box-shadow: 0 5px 14px rgba(1, 135, 95, 0.4);
+  color: #FFFFFF !important;
+}
+
+.grocki-btn-play-sm {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: #01875F;
+  color: #FFFFFF !important;
+  padding: 0.45rem 1rem;
+  border-radius: var(--grocki-radius-pill);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(1, 135, 95, 0.25);
+}
+
+.grocki-btn-play-sm:hover {
+  background: #017250;
+  color: #FFFFFF !important;
+  transform: translateY(-1px);
+}
+
 .grocki-btn-outline {
   display: inline-flex;
   align-items: center;
@@ -848,5 +891,21 @@ body {
 
   .grocki-contact-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .grocki-brand-tagline {
+    display: none;
+  }
+
+  .grocki-nav-actions {
+    gap: 0.4rem;
+  }
+
+  .grocki-btn-play,
+  .grocki-btn-link {
+    padding: 0.45rem 0.75rem;
+    font-size: 0.78rem;
   }
 }
